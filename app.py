@@ -20,3 +20,9 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 app.logger.info("Application started")
+
+import logging
+
+logging.basicConfig(level=logging.INFO)
+app.logger.info("Application started")
+
