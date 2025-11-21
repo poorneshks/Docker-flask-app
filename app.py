@@ -26,3 +26,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 app.logger.info("Application started")
 
+@app.route("/")
+def home():
+    app.logger.info("Home endpoint accessed")
+    return "Hello from Docker + GitHub Actions + Azure!"
+
